@@ -1,0 +1,17 @@
+{
+  "name": "infinitescrollsite",
+  "version": "1.0.0",
+  "description": "A simple vanilla JS website",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --open=./public/index.html"
+  },
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
+}
