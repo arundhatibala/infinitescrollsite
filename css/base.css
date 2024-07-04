@@ -34,6 +34,10 @@ h1{
     color: #FF8427;
 }
 
+h5 {
+    margin: 0;
+}
+
 .main-menu {
     display: flex;
     justify-content: center;
