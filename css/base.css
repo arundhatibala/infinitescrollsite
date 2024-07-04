@@ -12,10 +12,15 @@
     --color-link: #347b7b;
     --color-link-hover: #FF8427;
 }
+html, body {
+    overflow-x: hidden;
+    width: 100%;
 
+}
 /* Body styles */
 body {
     margin: 0;
+    position: relative;
     font-size: calc(0.875rem + 0.5vw);
     color: var(--color-text);
     background-color: var(--color-bg);
@@ -67,14 +72,15 @@ h1{
 
 .main-menu__header {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: left;
     padding: 0;
     margin: 0;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 .main-menu__title {
     margin: 0;
-    padding: 2rem 0;
+    padding: 0 0;
     font-size: 3rem;
     font-weight: 300;
 }
