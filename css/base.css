@@ -13,6 +13,7 @@
     --color-link-hover: #FF8427;
 }
 html, body {
+    cursor: none;
     overflow-x: hidden;
     width: 100%;
 
@@ -26,18 +27,20 @@ body {
     background-color: var(--color-bg);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'freight-big-pro', "Minion Pro", serif;
+    /* font-family: 'freight-big-pro', "Minion Pro", serif; */
     font-weight: 400;
 }
 
-h1{
+h1 a{
     color: #FF8427;
+    text-decoration: none;
 }
 
 h5 {
     margin: 0;
     font-size: 1.2rem;
 }
+
 
 .main-menu {
     display: flex;
@@ -112,7 +115,7 @@ h5 {
 /* Hamburger menu styles */
 .hamburger {
     display: none;
-    cursor: pointer;
+    cursor: none;
     font-size: 2rem;
 }
 
@@ -125,11 +128,12 @@ h5 {
 }
 .menu__item {
     margin-bottom: 1rem;
+    cursor: none;
 }
 .menu__item-inner {
     white-space: nowrap;
     position: relative;
-    cursor: pointer;
+    cursor: none;
     font-size: 7rem;
     padding: 0.5rem;
     display: block;
@@ -257,4 +261,35 @@ h5 {
 .footer {
     font-size: 1rem;
     color: #347b7b;
+}
+
+.active {
+    color: var(--color-link-hover);
+
+}
+
+h1 {
+    font-family: "minion-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "minion-pro-condensed-caption", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+p {
+    font-family: 'minion-pro';
+    font-weight: 500;
+}
+
+.about-container {
+    padding: 2rem;
+}
+
+.main-menu__item {
+    font-family: 'minion-pro', serif;
+    font-weight: 300;
 }

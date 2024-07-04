@@ -1,0 +1,29 @@
+
+body {
+    cursor: none; /* Hide the default cursor */
+}
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background-color: rgba(255, 132, 39, 0.5); /* Change color on hover */
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: width 0.5s ease, height 0.5s ease, background-color 0.5s ease;
+    z-index: 9999;
+}
+
+.link-hovered .cursor {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 132, 39, 0.5); /* Change color on hover */
+}
+
+
+a {
+    cursor: none; /* Hide the default cursor */
+}
