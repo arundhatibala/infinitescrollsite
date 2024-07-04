@@ -173,6 +173,9 @@ h1{
     .project-menu {
         width: 70%;
     }
+    .menu__item a {
+        font-size: 10vw;
+    }
 }
 @media screen and (max-width: 992px) {
     .main-menu {
@@ -181,6 +184,9 @@ h1{
     .project-menu {
         width: 65%;
     }
+    .menu__item a {
+        font-size: 6vw;
+    }
 }
 @media screen and (max-width: 768px) {
     .main-menu {
@@ -188,6 +194,9 @@ h1{
     }
     .project-menu {
         width: 60%;
+    }
+    .menu__item a {
+        font-size: 10vw;
     }
 }
 @media screen and (max-width: 576px) {
@@ -227,6 +236,9 @@ h1{
         top: 40%;
         right: 0;
         left: 100%;
+    }
+    .menu__item a {
+        font-size: 9vw;
     }
 
 }
