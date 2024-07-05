@@ -37,8 +37,8 @@ h1 a{
 }
 
 h5 {
-    margin: 0;
-    font-size: 1.2rem;
+    margin-top: -30px;
+    font-size: 1rem;
 }
 
 
@@ -89,8 +89,8 @@ h5 {
 .main-menu__title {
     margin: 0;
     padding: 0 0;
-    font-size: 3rem;
-    font-weight: 300;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 .main-menu__list {
     list-style: none;
@@ -105,7 +105,7 @@ h5 {
     text-decoration: none;
     color: var(--color-link);
     font-size: 1.5rem;
-    font-weight: 600;
+    font-weight: 300;
     transition: color 0.3s ease; /* Smooth transition for color */
 }
 .main-menu__item a:hover {
@@ -127,7 +127,7 @@ h5 {
     -webkit-overflow-scrolling: touch;
 }
 .menu__item {
-    margin-bottom: 1rem;
+    margin-bottom: 0rem;
     cursor: none;
 }
 .menu__item-inner {
@@ -135,7 +135,7 @@ h5 {
     position: relative;
     cursor: none;
     font-size: 7rem;
-    padding: 0.5rem;
+    padding: 1rem;
     display: block;
     color: var(--color-menu);
     transition: color 0.3s ease, transform 0.3s ease, font-style 0.3s ease;
@@ -183,7 +183,7 @@ h5 {
         width: 70%;
     }
     .menu__item a {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 }
 @media screen and (max-width: 992px) {
@@ -269,6 +269,7 @@ h5 {
 }
 
 h1 {
+    font-size: 3rem;
     font-family: "minion-pro", serif;
     font-weight: 700;
     font-style: normal;
